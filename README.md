@@ -32,7 +32,7 @@ This Boilerplate shows basics flows sample of the Watson nodes
 - Tradeoff Analytics
 - Tone Analyser
 - Visual Recognition
-- Retrieve and Rank (coming soon)
+- Retrieve and Rank
 
 ###Notice
 - this Watson Node-RED Boilerplate can be used as a starting point for demo or hackathon, but it is not intended for a production usage
