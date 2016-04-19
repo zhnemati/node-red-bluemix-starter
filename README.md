@@ -8,6 +8,8 @@ Bluemix with only a couple clicks. Try it out for yourself right now by clicking
 
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/watson-developer-cloud/node-red-bluemix-starter.git)
 
+**The `README.md` file *must* be updated, if you clone this repository, to point the *`Deploy to Bluemix` button* at your repository.**
+
 This is a fork of the Node-RED in Bluemix boilerplate that integrates the following :
 
 - All available Watson nodes for Node-RED on <a href="https://github.com/watson-developer-cloud/node-red-node-watson">GitHub</a>
@@ -41,9 +43,7 @@ This Boilerplate shows basics flows sample of the Watson nodes
 
 ### How does this work?
 
-When you click the button, you are taken to Bluemix where you get a pick a name
-for your application at which point the platform takes over, grabs the code from
-this repository and gets it deployed.
+When you click the button, you will be taken to Bluemix. The name of the application will be pre-filled *however* you type your own name for your application, select the server and development space. Click the **DEPLOY button** and the application will be deployed with all samples and examples included in the Node-RED bolierplate.
 
 It will automatically create an instance of the Cloudant service, call it
 `sample-node-red-cloudantNoSQLDB` and bind it to you app. This is where your
