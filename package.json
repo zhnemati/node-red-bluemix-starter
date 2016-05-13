@@ -9,7 +9,7 @@
         "redis":"~0.10.1",
         "node-red": "0.x",
         "node-red-bluemix-nodes":"1.x",
-        "node-red-node-watson":"https://github.com/watson-developer-cloud/node-red-node-watson.git",
+        "node-red-node-watson":"https://github.com/arlemi/node-red-node-watson.git",
         "node-red-node-openwhisk":"0.x",
         "node-red-node-cf-cloudant":"0.x",
         "node-red-contrib-scx-ibmiotapp":"0.x",
