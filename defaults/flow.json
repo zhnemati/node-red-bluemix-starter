@@ -129,7 +129,7 @@
     },
     {
         "id": "46b66c47.7f2614",
-        "type": "watson-tone-analyzer",
+        "type": "watson-tone-analyzer-v3",
         "z": "f44213e0.6b0cc",
         "name": "",
         "tones": "all",
