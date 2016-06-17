@@ -22,6 +22,7 @@ This Boilerplate shows basics flows sample of the Watson nodes
 - Alchemy Image Analysis
 - Alchemy Data News
 - Alchemy Feature Extraction
+- Conversation (experimental)
 - Dialog
 - Document Conversion
 - Language Identification
@@ -29,13 +30,12 @@ This Boilerplate shows basics flows sample of the Watson nodes
 - Natural Language Classifier
 - Personality insights
 - Relationship Extraction
+- Retrieve and Rank
 - Speech to Text
 - Text to Speech
 - Tradeoff Analytics
 - Tone Analyser
 - Visual Recognition
-- Conversation (experimental)
-- Retrieve and Rank
 
 ###Notice
 - this Watson Node-RED Boilerplate can be used as a starting point for demo or hackathon, but it is not intended for a production usage
