@@ -34,6 +34,7 @@ This Boilerplate shows basics flows sample of the Watson nodes
 - Tradeoff Analytics
 - Tone Analyser
 - Visual Recognition
+- Conversation (experimental)
 - Retrieve and Rank
 
 ###Notice
