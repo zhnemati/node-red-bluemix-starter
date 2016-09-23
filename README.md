@@ -15,7 +15,6 @@ This is a fork of the Node-RED in Bluemix boilerplate that integrates the follow
 - All available Watson nodes for Node-RED on <a href="https://github.com/watson-developer-cloud/node-red-node-watson">GitHub</a>
 - Flows from the <a href="https://github.com/watson-developer-cloud/node-red-labs/tree/master/basic_examples">Watson Node-RED Basics Labs</a>
 - added Dropbox and Box nodes in the palette
-- **New Node-RED Starter Kits (_Coming soon!_)** 
 
 Available Watson Nodes
 This Boilerplate shows basics flows sample of the Watson nodes
