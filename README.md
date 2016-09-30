@@ -22,14 +22,15 @@ This Boilerplate shows basics flows sample of the Watson nodes
 - Alchemy Image Analysis
 - Alchemy Data News
 - Alchemy Feature Extraction
-- Conversation (experimental)
+- Alchemy Language
+- Conversation
 - Dialog
 - Document Conversion
 - Language Identification
 - Language Translation
 - Natural Language Classifier
-- Personality insights
-- Relationship Extraction
+- Concept Insights (deprecated)
+- Relationship Extraction (deprecated)
 - Retrieve and Rank
 - Speech to Text
 - Text to Speech
