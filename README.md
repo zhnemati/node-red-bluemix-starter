@@ -45,31 +45,22 @@ This Boilerplate shows basics flows sample of the Watson nodes
 
 ### How does this work?
 
-When you click the button, you will be taken to Bluemix. The name of the application will be pre-filled *however* you type your own name for your application, select the server and development space. Click the **DEPLOY button** and the application will be deployed with all samples and examples included in the Node-RED bolierplate.
+When you click the button, you will be taken to Bluemix. The name of the application will be pre-filled *however* you can type your own name for your application, select the server and development space. Click the **DEPLOY button** and the application will be deployed with all samples and examples included in the Node-RED boilerplate.
 
-It will automatically create an instance of the Cloudant service, call it
-`sample-node-red-cloudantNoSQLDB` and bind it to you app. This is where your
-Node-RED instance will store its data. If you deploy multiple instances of
-Node-RED from this repository, they will share the one Cloudant instance.
+It will automatically create an instance of the Cloudant service, call it `sample-node-red-cloudantNoSQLDB` and bind it to your app. This is where your Node-RED instance will store its data. If you deploy multiple instances of Node-RED from this repository, they will share the one Cloudant instance.
 
-It includes a set of default flows that are automatically deployed the first time
-Node-RED runs.
+It includes a set of default flows that are automatically deployed the first time Node-RED runs.
 
 ### Customising Node-RED
 
-This repository is here to be cloned, modified and re-used to allow anyone create
-their own Node-RED based application that can be quickly deployed to Bluemix.
+This repository is here to be cloned, modified and re-used to allow anyone create their own Node-RED based application that can be quickly deployed to Bluemix.
 
 The default flows are stored in the `defaults` directory in the file called `flow.json`.
 
-The web content you get when you go to the application's URL is stored under the
-`public` directory.
+The web content you get when you go to the application's URL is stored under the `public` directory.
 
-Additional nodes can be added to the `package.json` file and all other Node-RED
-configuration settings can be set in `bluemix-settings.js`.
+Additional nodes can be added to the `package.json` file and all other Node-RED configuration settings can be set in `bluemix-settings.js`.
 
-If you do clone this repository, make sure you update this `README.md` file to point
-the `Deploy to Bluemix` button at your repository.
+If you do clone this repository, make sure you update this `README.md` file to point the `Deploy to Bluemix` button at your repository.
 
-If you want to change the name of the Cloudant instance that gets created, the memory
-allocated to the application or other deploy-time options, have a look in `manifest.yml`.
+If you want to change the name of the Cloudant instance that gets created, the memory allocated to the application or other deploy-time options, you will have to edit the `manifest.yml`.
