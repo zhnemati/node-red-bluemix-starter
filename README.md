@@ -19,12 +19,13 @@ This is a fork of the Node-RED in Bluemix boilerplate that integrates the follow
 Available Watson Nodes
 This Boilerplate shows basics flows sample of the Watson nodes
 
-- Alchemy Image Analysis
+- Alchemy Image Analysis (deprecated)
 - Alchemy Data News
 - Alchemy Feature Extraction
 - Alchemy Language
 - Conversation
 - Dialog
+- Discovery
 - Document Conversion
 - Language Identification
 - Language Translation
