@@ -1,6 +1,7 @@
 Node-RED Watson Bluemix Starter Application
 ======================================
 
+
 ### Node-RED Watson in Bluemix
 
 This repository is an example Node-RED application that can be deployed into
@@ -34,7 +35,7 @@ This Boilerplate shows basics flows sample of the Watson nodes
 - Tone Analyser
 - Visual Recognition
 
-###Notice
+### Notice
 - this Watson Node-RED Boilerplate can be used as a starting point for demo or hackathon, but it is not intended for a production usage
 - Watson nodes for Node-RED : these nodes are free of use, and are open-source under the Apache 2</p>
 - Watson API / Bluemix services : those nodes needs to be linked with the appropriate Watson service in the Bluemix catalog, and support only one version of each the Watson API. The usage of those services are following a Cost Plan defined in the Bluemix catalog</p>
@@ -45,13 +46,21 @@ When you click the button, you will be taken to Bluemix. The name of the applica
 
 It will automatically create an instance of the Cloudant service, call it `sample-node-red-cloudantNoSQLDB` and bind it to your app. This is where your Node-RED instance will store its data. If you deploy multiple instances of Node-RED from this repository, they will share the one Cloudant instance.
 
-It includes a set of default flows that are automatically deployed the first time Node-RED runs.
+When you first access the application, you'll be asked to set some security options
+to ensure your flow editor remains secure from unauthorised access.
+
+It includes a set of default flows that are automatically deployed the first time
+Node-RED runs.
+
 
 ### Customising Node-RED
 
 This repository is here to be cloned, modified and re-used to allow anyone create their own Node-RED based application that can be quickly deployed to Bluemix.
 
 The default flows are stored in the `defaults` directory in the file called `flow.json`.
+When the application is first started, this flow is copied to the attached Cloudant
+instance. When a change is deployed from the editor, the version in cloudant will
+be updated - not this file.
 
 The web content you get when you go to the application's URL is stored under the `public` directory.
 
